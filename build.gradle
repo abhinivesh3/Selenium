@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+//    maven {
+//        url "http://build/zoho_android/"
+//    }
+//    maven {
+//        url 'http://labs.consol.de/maven/repository/'
+//    }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.8.0'
+    //implementation 'org.seleniumhq.selenium:selenium-java:4.8.0'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
