@@ -1,6 +1,5 @@
 package org.example;
 
-import jdk.nashorn.internal.runtime.regexp.joni.constants.internal.OPCode;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
