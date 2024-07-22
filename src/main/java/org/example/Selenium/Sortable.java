@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Selenium;
 
 import org.bouncycastle.jcajce.provider.drbg.DRBG;
 import org.openqa.selenium.By;

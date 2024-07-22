@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Selenium;
 
 import org.checkerframework.checker.units.qual.C;
 import org.openqa.selenium.Proxy;

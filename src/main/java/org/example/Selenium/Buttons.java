@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Point;

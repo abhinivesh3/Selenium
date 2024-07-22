@@ -1,15 +1,14 @@
-package org.example;
+package org.example.Selenium;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class SearchTeam {
+public class OpenFireFox {
     public static void  main(String[] args){
         System.setProperty("webdriver.gecko.driver","/Users/abhi-21739/Downloads/geckodriver");
-        WebDriver driver= new FirefoxDriver();
+        WebDriver driver=new FirefoxDriver();
         driver.get("https://www.google.com");
-        driver.findElement(By.name("q")).sendKeys("Photos"+ Keys.ENTER);
+        //driver.close();
+        driver.quit();
     }
 }
