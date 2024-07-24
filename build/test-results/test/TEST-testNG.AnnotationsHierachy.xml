@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testNG.AnnotationsHierachy" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-07-24T17:33:31" hostname="abhi-21739" time="0.003">
+  <properties/>
+  <testcase name="test" classname="testNG.AnnotationsHierachy" time="0.0"/>
+  <testcase name="test2" classname="testNG.AnnotationsHierachy" time="0.0"/>
+  <system-out><![CDATA[Im before class
+Im before method
+Im test
+Im after method
+Im before method
+Im test2
+Im after method
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
