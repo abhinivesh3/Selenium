@@ -2,12 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Suite" verbose="2">
     <test name="Test cases">
+        <groups>
+            <run>
+                <include name="Moto"></include>
+                <include name="Vivo"></include>
+<!--                <exclude name="Apple"></exclude>-->
+<!--                <exclude name="Lenovo"></exclude>-->
+            </run>
+        </groups>
         <classes>
-            <class name="testNG.DependenciesManagement"/>
-            <class name="testNG.DriveACar"/>
-            <class name="testNG.SampleTestCase"/>
-            <class name="testNG.SkipATestCase"/>
-            <class name="testNG.SuiteExample"/>
+<!--            <class name="testNG.DependenciesManagement"/>-->
+<!--            <class name="testNG.DriveACar"/>-->
+<!--            <class name="testNG.SampleTestCase"/>-->
+<!--            <class name="testNG.SkipATestCase"/>-->
+<!--            <class name="testNG.SuiteExample"/>-->
+            <class name="testNG.GroupingExample"></class>
         </classes>
     </test>
 </suite>
