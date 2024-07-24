@@ -11,7 +11,7 @@ public class DependenciesManagement {
         System.out.println("High School");
     }
 
-    @Test(dependsOnMethods = "highSchool",enabled = false)
+    @Test(dependsOnMethods = "highSchool",enabled = true)
     public void higherSecondary(){
         System.out.println("Higher Secondary School");
     }
