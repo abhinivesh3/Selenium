@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name = "Test Suite">
-    <test name = "Test cases">
+<suite name="Test Suite" verbose="2">
+    <test name="Test cases">
         <classes>
-            <class name="testNG.DependenciesManagement"> </class>
-            <class name="testNG.DriveACar"> </class>
-            <class name="testNG.SampleTestCase"> </class>
-            <class name="testNG.SkipATestCase"> </class>
-            <class name="testNG.SuiteExample"> </class>
+            <class name="testNG.DependenciesManagement"/>
+            <class name="testNG.DriveACar"/>
+            <class name="testNG.SampleTestCase"/>
+            <class name="testNG.SkipATestCase"/>
+            <class name="testNG.SuiteExample"/>
         </classes>
     </test>
 </suite>
+
