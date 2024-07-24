@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test Suite" verbose="2">
+<suite name="Test Suite" verbose="2" parallel="methods" thread-count="2">
     <test name="Test cases">
 <!--        <groups>-->
 <!--            <run>-->
@@ -10,7 +10,7 @@
 <!--&lt;!&ndash;                <exclude name="Lenovo"></exclude>&ndash;&gt;-->
 <!--            </run>-->
 <!--        </groups>-->
-        <parameter name="Name" value="Duck"></parameter>
+<!--        <parameter name="Name" value="Duck"></parameter>-->
         <classes>
 <!--            <class name="testNG.DependenciesManagement"/>-->
 <!--            <class name="testNG.DriveACar"/>-->
@@ -18,7 +18,8 @@
 <!--            <class name="testNG.SkipATestCase"/>-->
 <!--            <class name="testNG.SuiteExample"/>-->
 <!--            <class name="testNG.GroupingExample"></class>-->
-            <class name="testNG.Parameterization"/>
+<!--            <class name="testNG.Parameterization"/>-->
+            <class name="testNG.ParallelTesting"></class>
         </classes>
     </test>
 </suite>
